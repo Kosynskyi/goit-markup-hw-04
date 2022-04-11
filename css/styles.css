@@ -21,7 +21,7 @@ body {
   font-weight: 400;
   font-size: 14px;
 }
-
+/* Оформление линии */
 .header {
   background-color: var(--bg-white-color);
   border-bottom-width: 1px;

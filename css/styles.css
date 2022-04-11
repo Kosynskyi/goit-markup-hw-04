@@ -29,16 +29,38 @@ body {
   border-bottom-color: #ececec;
 }
 .main-section {
-  margin-top: 0;
-  margin-bottom: 0;
-  padding-top: 200px;
-  padding-bottom: 200px;
+  max-width: 1600px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: linear-gradient(
+      to right,
+      rgba(42, 52, 163, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/hero.jpg);
   background-color: #2f303a;
+  background-repeat: no-repeat
+  background-position: center;
+  background-size: cover;
   text-align: center;
 }
+
+.main-title {
+  width: 696px;
+  padding-top: 200px;
+  margin: 0 auto 30px;
+  color: var(--bg-white-color);
+  font-size: 44px;
+  line-height: 1.4;
+  font-weight: 900;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  text-align: center;
+}
+
 .text-section {
   margin-top: 94px;
-  background-color: #e5e5e5;
 }
 .picture-section {
   margin-top: 94px;
@@ -74,6 +96,43 @@ body {
 }
 .span-header {
   color: var(--title-text-color);
+}
+
+/* Оформление иконок хедера */
+/* .button-svg {
+  display: inline-flex;
+  margin-right: 10px;
+  padding: 0;
+}
+
+.icon-svg {
+  width: 16px;
+  height: 12px;
+  fill: red;
+} */
+
+/* Оформление картинок в преимуществах */
+.feature-svg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  width: 270px;
+  height: 120px;
+  outline: 2px solid red;
+  object-fit: cover;
+  background-color: #f5f4fa;
+
+  /* border: red;
+  color: green;
+  outline: blue; */
+}
+
+.feature-icon {
+  width: 66px;
+  height: 70px;
+  outline: 2px dashed green;
+  object-fit: contain;
 }
 
 /* оформление логотипа футера */
@@ -154,18 +213,7 @@ body {
 .contacts-footer {
   text-decoration: none;
 }
-.main-title {
-  width: 696px;
-  margin: 0 auto 30px;
-  background: #2f303a;
-  color: var(--bg-white-color);
-  font-size: 44px;
-  line-height: 1.4;
-  font-weight: 900;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  text-align: center;
-}
+
 .button {
   background: #f5f4fa;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -305,10 +353,10 @@ body {
   width: 1200px;
 }
 .list > .list-nav {
-  /* outline: 2px solid green; */
+  display: flex;
+  align-items: center;
+  outline: 2px solid green;
   margin-right: 50px;
-  padding-top: 32px;
-  padding-bottom: 32px;
 }
 .list > .list-nav:last-child {
   margin-right: 0;

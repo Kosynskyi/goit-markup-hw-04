@@ -40,7 +40,7 @@ body {
     ),
     url(../images/hero.jpg);
   background-color: #2f303a;
-  background-repeat: no-repeat
+  background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   text-align: center;
@@ -112,7 +112,7 @@ body {
 } */
 
 /* Оформление картинок в преимуществах */
-.feature-svg {
+/* .feature-svg {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -121,12 +121,12 @@ body {
   height: 120px;
   outline: 2px solid red;
   object-fit: cover;
-  background-color: #f5f4fa;
+  background-color: #f5f4fa; */
 
   /* border: red;
   color: green;
-  outline: blue; */
-}
+  outline: blue;} */
+
 
 .feature-icon {
   width: 66px;

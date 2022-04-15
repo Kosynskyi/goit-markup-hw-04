@@ -98,42 +98,42 @@ body {
   color: var(--title-text-color);
 }
 
-/* Оформление иконок хедера */
-/* .button-svg {
-  display: inline-flex;
-  margin-right: 10px;
-  padding: 0;
-}
-
 .icon-svg {
-  width: 16px;
-  height: 12px;
-  fill: red;
-} */
-
-/* Оформление картинок в преимуществах */
-/* .feature-svg {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display: inline-block;
+  margin-right: 10px;
+}
+.icon-svg:hover {
+  fill: var(--accent-color);
+}
+/* Оформление иконок хедера */
+/* .icon-svg {
+  margin-left: auto;
+  margin-right: auto;
   padding: 0;
+  margin: 0;
+}  */
+
+/* .container-svg {
+  margin-bottom: 30px;
+  padding: 0;
+  outline: 2px solid green;
   width: 270px;
   height: 120px;
-  outline: 2px solid red;
-  object-fit: cover;
-  background-color: #f5f4fa; */
-
-  /* border: red;
-  color: green;
-  outline: blue;} */
-
-
-.feature-icon {
-  width: 66px;
-  height: 70px;
-  outline: 2px dashed green;
-  object-fit: contain;
+  background-color: #F5F4FA;
+} */
+.feature-svg {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+  background: #F5F4FA;
+  border-radius: 4px;
+  width: 270px;
+  height: 120px;
 }
+/* Оформление картинок в преимуществах */
+
+
+
 
 /* оформление логотипа футера */
 .logo-footer {
@@ -363,8 +363,13 @@ body {
 }
 
 .list {
+  display: flex;
   margin-left: auto;
 }
+/* .list-nav:hover {
+  color: var(--accent-color);
+} */
+
 .picture-list .item,
 .personal .photo-list {
   margin-right: 30px;
